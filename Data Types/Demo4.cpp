@@ -14,7 +14,7 @@ int main(){
 	printf("\nCanh thu ba: ");
 	scanf("%d", &c);
 	
-	if((a+b)>c && (a+c)>b && (b+a)>c && (b+c)>a && (c+a)>b && (c+b)>a){
+	if((a+b)>c && (a+c)>b && (b+c)>a){
 		printf("\nDay la 1 tam giac");
 		p = a + b + c;
 		printf("\n- Chu vi = %d", p);
