@@ -3,8 +3,7 @@
 
 int main(){
 	int a, b, c;
-	int p = 0;
-	int s = 0;
+	double p, s;
 	
 	printf("Nhap vao do dai 3 canh de kiem tra: ");
 	printf("\nCanh thu nhat: ");
@@ -16,11 +15,11 @@ int main(){
 	
 	if((a+b)>c && (a+c)>b && (b+c)>a){
 		printf("\nDay la 1 tam giac");
-		p = a + b + c;
-		printf("\n- Chu vi = %d", p);
-		int p2 = p/2;
+		p = (double)(a + b + c);
+		printf("\n- Chu vi = %lf", p);
+		double p2 = p/2;
 		s = sqrt(p2*(p2-a)*(p2-b)*(p2-c));
-		printf("\n- Dien tich = %d", s);
+		printf("\n- Dien tich = %lf", s);
 	} else {
 		printf("\nDay khong phai la 1 tam giac");
 	}

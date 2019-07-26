@@ -8,7 +8,7 @@ int main(){
 	scanf("%f", &b);
 	if(a < b){
 		printf("%.0f * %.0f = %.0f", a, b, a*b);
-	}else if((a > b)&&(b!=0)){
+	} else if((a > b)&&(b!=0)){
 		printf("%.0f / %.0f = %f", a, b, a/b);
 	} else {
 		printf("Vui long nhap gia tri cua b khac 0");
