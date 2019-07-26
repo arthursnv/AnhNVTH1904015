@@ -24,35 +24,4 @@ int main(){
 	} else {
 		printf("\nDay khong phai la 1 tam giac");
 	}
-	
-//	if((a+b)>c){
-//		if((a+c)>b){
-//			if((b+a)>c){
-//				if((b+c)>a){
-//					if((c+a)>b){
-//						if((c+b)>a){
-//							printf("\nDay la 1 tam giac");
-//							p = a + b + c;
-//							printf("\n- Chu vi = %d", p);
-//							int p2 = p/2;
-//							s = sqrt(p2*(p2-a)*(p2-b)*(p2-c));
-//							printf("\n- Dien tich = %d", s);
-//						} else {
-//							printf("\nDay khong phai la 1 tam giac");
-//						}
-//					} else {
-//						printf("\nDay khong phai la 1 tam giac");
-//					}
-//				} else {
-//					printf("\nDay khong phai la 1 tam giac");
-//				}
-//			} else {
-//				printf("\nDay khong phai la 1 tam giac");
-//			}
-//		} else {
-//			printf("\nDay khong phai la 1 tam giac");
-//		}
-//	} else {
-//		printf("\nDay khong phai la 1 tam giac");
-//	}
 }
