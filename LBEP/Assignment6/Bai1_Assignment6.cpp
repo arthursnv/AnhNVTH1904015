@@ -16,4 +16,5 @@ int main(){
 	}
 	
 	printf("\nGia tri trung binh cua mang la: %d", s/10);
+	
 }
