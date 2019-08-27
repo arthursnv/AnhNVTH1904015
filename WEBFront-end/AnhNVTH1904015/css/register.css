@@ -1,0 +1,41 @@
+.register{
+    width: 67.5%;
+    height: auto;
+    border: solid 1px #E2E2E3;
+    margin-top: 10px;
+    text-align: justify;
+    float: right;
+    background-color: #FFFFFF;
+    color: #444444;
+    font-family: Arial;
+}
+.register h2{
+    text-align: center;
+    line-height: 2;
+}
+.register .register-form{
+    width: 70%;
+    height: auto;
+    margin: auto auto 50px;
+}
+.register .register-form .line{
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.line p{
+    font-size: 14px;
+    line-height: 0px;
+}
+.register .register-form .line .line-left{
+    width: 40%;
+    height: auto;
+    float: left;
+}
+.register .register-form .line .line-right{
+    width: 40%;
+    height: auto;
+    float: left;
+}

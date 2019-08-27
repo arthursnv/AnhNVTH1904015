@@ -1,0 +1,127 @@
+body{
+    background-color: #FFFFFF;
+    color: #333333;
+}
+a{
+    text-decoration: none;
+    color: #FF6400;
+}
+a:hover{
+    color: #FF0000;
+    zoom: 1.05;
+}
+#header{
+    width: 100%;
+}
+#header .container{
+    max-width: 960px;
+    height: 142px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5px;
+    border-bottom: solid 1px #FF6400;
+}
+#header .logo-image{
+    width: 13.5%;
+    height: auto;
+    float: left;
+}
+#header .logo-image img {
+    max-width: 100%;
+    height: auto;
+}
+#header .logo-slogan{
+    width: 34%;
+    height: auto;
+    float: left;
+}
+#header .logo-slogan h1{
+    color: #FF6400;
+    font-size: 32px;
+    line-height: 1;
+    font-family: 'Lexend Tera', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+#header .logo-slogan h2{
+    font-size: 25px;
+    line-height: 1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+#header ul{
+    width: auto;
+    height: auto;
+    float: right;
+    margin-top: 97px;
+    padding-right: 20px;
+}
+#header ul li{
+    font-size: 20px;
+    line-height: 1;
+    display: inline;
+    width: auto;
+    border-left: solid 1px #FFFFFF;
+    border-right: solid 1px #FFFFFF;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: -2.5px;
+}
+#header .banner{
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5px;
+    border-bottom: solid 1px #FF6400;
+    text-align: center;
+}
+#header .banner img{
+    max-width: 100%;
+    height: auto;
+}
+
+#footer{
+    width: 100%;
+}
+#footer .container{
+    color: #FFFFFF;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    max-width: 960px;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: solid 1px #FF6400;
+    background-image: linear-gradient(to right, #FF6400, #000000);
+}
+#footer a{
+    color: #FFFFFF;
+}
+#footer h3{
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+#footer ul{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#footer li{
+    font-size: 18px;
+    line-height: 1.4;
+}
+#footer .container .contact{
+    width: 35%;
+    float: left;
+    margin-left: 5%;
+}
+#footer .container .about{
+    width: 30%;
+    float: left;
+}
+#footer .container .follow-me{
+    width: 30%;
+    float: right;
+}
