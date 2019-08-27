@@ -1,0 +1,16 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ],
+  "env": {
+  },
+  "formation": {
+  },
+  "name": "AnhNVTH1904015",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
