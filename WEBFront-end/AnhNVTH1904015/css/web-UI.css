@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #353737;
+}
+a{
+    text-decoration: none;
+}
+header, section{
+    float: left;
+    width: 100%;
+}
+header{
+    background-color: #FF9300;
+}
+.container{
+    width: 960px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-left{
+    width: 60%;
+    height: auto;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.header-left ul li{
+    display: inline;
+    margin-right: 15px;
+}
+.header-left li a{
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: color 600ms;
+    font-weight: bold;
+}
+.header-left li a:hover{
+    color: #FF0000;
+    zoom: 1.05;
+}
+.header-right{
+    width: 40%;
+    height: auto;
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: right;
+}
+.header-right input{
+    border-radius: 10px;
+    padding: 3px 5px;
+    margin-right: 10px;
+}
+.header-right a{
+    color: #000000;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: color 600ms;
+    font-weight: bold;
+}
+.header-right a:hover{
+    color: #FF0000;
+    zoom: 1.05;
+}
+.container .logo img{
+    width: 25%;
+    height: auto;
+    padding: 20px;
+}
+.container .content{
+    width: 60%;
+    height: auto;
+    float: left;
+}
+.content .article{
+    width: 100%;
+    height: auto;
+    border: solid 1px #f5f5f5;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 5px;
+}
+.article .art-title{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.article .art-title h2{
+    font-size: 24px;
+    line-height: 1.5;
+}
+.article .art-info{
+    width: calc(100% - 20px);
+    height: auto;
+    float: left;
+    padding: 10px;
+    background-color: #FF9300;
+    color: #000000;
+    font-weight: bold;
+}
+.article .art-content{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.article .art-content .thumbnail{
+    width: calc(60% - 20px);
+    height: auto;
+    float: left;
+    padding: 10px;
+}
+.article .art-content .thumbnail img{
+    max-width: 100%;
+    height: auto;
+}
+.article .art-content .art-desc{
+    width: calc(40% - 20px);
+    height: auto;
+    float: right;
+    padding: 10px;
+    text-align: justify;
+}
+.art-btn{
+    text-align: right;
+}
+.art-btn a{
+    color: #FF9300;
+    text-transform: capitalize;
+}
+.art-btn a:hover{
+    color: #FFFFFF;
+    zoom: 1.05;
+}
+.container .right-sidebar{
+    width: calc(40% - 70px);
+    height: auto;
+    float: right;
+    padding: 15px;
+    border: solid 1px #f5f5f5;
+    border-radius: 5px;
+}
+.right-sidebar .form-sub{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.right-sidebar .form-sub h3{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.right-sidebar .form-sub form{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FF9300;
+    border: solid 1px #FF9300;
+    border-radius: 5px;
+    padding: 5%;
+}
+.right-sidebar .form-sub form input{
+    width: 90%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 7.5px;
+    padding: 0px 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 2;
+}
+.right-sidebar .form-sub form button{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 2;
+    background-color: #333333;
+    color: #FF9300;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.right-sidebar .form-sub form button:hover{
+    zoom: 1.05;
+    color: #FFFFFF;
+}
+.right-sidebar .block-labels{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.right-sidebar .block-labels h3{
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.right-sidebar .block-labels span{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 2;
+    margin: 5px 2.5px;
+}
+.right-sidebar .block-labels span:hover{
+    background-color: #FF9300;
+    color: #000000;
+}
+#section-color{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px 0px;
+}

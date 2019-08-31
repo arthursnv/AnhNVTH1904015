@@ -1,0 +1,253 @@
+*{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body{
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: 'Raleway', sans-serif;
+    color: #4D4F54;
+}
+a{
+    text-decoration: none;
+}
+header, section{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+header{
+    background-color: #FFFFFF;
+}
+.header{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-left{
+    width: 10%;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.header-left .logo a{
+    color: #4D4F54;
+}
+.header-right{
+    width: calc(90% - 20px);
+    height: auto;
+    text-align: right;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+.header-right ul{
+    text-transform: uppercase;
+}
+.header-right li{
+    display: inline-table;
+    margin: 5px;
+}
+.header-right a{
+    color: #a0a2a7;
+}
+.header-right a:hover{
+    color: #444444;
+    font-size: 15px;
+}
+section{
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#main{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content{
+    width: 60%;
+    height: auto;
+    float: left;
+}
+.article-slogan{
+    width: calc(100% - 25px);
+    height: auto;
+    background-color: #FF6161;
+    border: solid 4px #FFFFFF;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.article-slogan .slogan{
+    width: calc(100% - 50px);
+    height: auto;
+    color: #FFFEFF;
+    padding: 25px;
+}
+.article-slogan h2{
+    font-size: 21px;
+    line-height: 1.5;
+    margin: 0px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+.slogan h4{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+.article{
+    width: calc(100% - 25px);
+    height: auto;
+    background-color: #FFFFFF;
+    border: solid 4px #FFFFFF;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.article .thumbnail{
+    width: 100%;
+    height: auto;
+}
+.thumbnail img{
+    max-width: 100%;
+    height: auto;
+}
+.article .art-title{
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+}
+.art-title h3{
+    font-size: 24px;
+    line-height: 2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+}
+.article .art-info{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.art-info span{
+    margin-right: 5px;
+}
+.art-info img{
+    margin-right: 5px;
+}
+.article .art-desc{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.art-desc{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Cabin', sans-serif;
+    color: #444444;
+    font-weight: 400;
+}
+.article .button{
+    width: 115px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button p{
+    text-transform: uppercase;
+    line-height: 2.5;
+    background-color: #FF7252;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.button p a{
+    color: #FFFEFF;
+}
+.right-sidebar{
+    width: 38.5%;
+    height: auto;
+    float: right;
+}
+.recent-posts{
+    width: calc(100% - 25px);
+    height: auto;
+    background-color: #FFFFFF;
+    border: solid 4px #FFFFFF;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.recent-posts .rp-head{
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+}
+.rp-head img{
+    margin-right: 15px;
+}
+.recent-posts .rp-item{
+    width: calc(100% - 50px);
+    height: 70px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+}
+.rp-item .item-thumbnail{
+    width: 50px;
+    height: 50px;
+    border: solid 1px #E2E2E3;
+    float: left;
+    text-align-all: center;
+    background-color: #EBEBEB;
+}
+.rp-item .item-thumbnail img{
+    width: 24px;
+    height: auto;
+    margin: 12.5px;
+}
+.rp-item .item-title{
+    width: calc(100% - 70px);
+    height: auto;
+    margin-left: 15px;
+    float: right;
+    line-height: 2;
+}
+.categories{
+    width: calc(100% - 25px);
+    height: auto;
+    background-color: #FFFFFF;
+    border: solid 4px #FFFFFF;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+.categories .cate-head{
+    margin: 25px;
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+}
+.cate-head img{
+    margin-right: 15px;
+}
+.categories ul{
+    width: 100%;
+    margin: 25px;
+    font-size: 16px;
+    font-family: 'Cabin', sans-serif;
+    padding-left: 0px;
+}
+.categories li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.categories a{
+    color: #4D4F54;
+}
