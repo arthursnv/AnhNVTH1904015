@@ -20,7 +20,80 @@
         <p><a href="Demo/demo2.html">Demo2</a></p>
     </div>
     <div class="content">
+        <button type="button" onclick="clickReadmore()" onmouseover="hoverButton()" onmouseout="moveOutButton()">Bấm vào đây nè</button>
+        <br/>
+        <a>
+            <span style="font-size: 24px; line-height: 2; background-color: red; color: #FFFFFF; font-weight: bold; padding: 10px; border-radius: 10px" onclick="gameDoanSo()">Game đoán số</span>
+        </a>
     </div>
     <div class="footer"></div>
+<script type="text/javascript">
+    var ten_bien;
+    ten_bien = 10;
+    console.log(ten_bien);
+    ten_bien = "hello world!";
+    console.log(ten_bien);
+    var arr = [];
+    arr[0] = 10;
+    arr[1] = "hello cc";
+    arr[2] = [1,2,3];
+    for(var i = 0; i < arr.length; i++){
+        console.log(arr[i]);
+    }
+    console.log(arr);
+    if (arr.length > 2){
+        console.log("Nhieu hon 2 phan tu cmnr!!!");
+    } else{
+        console.log("It qua! Nhap them phan tu di.");
+    }
+    for(var i = 0; i < arr[2].length; i++){
+        console.log("arr[2][" + i + "] = " + arr[2][i]);
+    }
+    console.log("Hello " + 100);
+    console.log(100 + 100);
+    console.log("100" + 100);
+
+    function ten_ham() {
+        return 100 + 100;
+    }
+    console.log(120 + ten_ham());
+    var x = ten_ham();
+    console.log("x = " + x);
+
+    function ten_ham_2(a, b) {
+        //tinh tong a va b
+        console.log(a + b);
+    }
+    ten_ham_2(3, 5);
+
+    alert("xin chao ban nho!");
+    var ketqua = prompt("Ban ten la gi vay?");
+    console.log(ketqua);
+    alert("xin chao " + ketqua);
+
+    // do{
+    //     var dieukien = prompt("tuan loc co sung phai khong?");
+    // } while(dieukien == null || dieukien == "");
+
+    function clickReadmore() {
+        prompt("tuan loc co sung phai khong?");
+    }
+    function hoverButton() {
+        console.log("ban vua dua chuot vao button");
+    }
+    function moveOutButton() {
+        console.log("ban dua chuot ra ngoai button cmnr")
+    }
+    function gameDoanSo() {
+        var ketqua = parseInt(Math.random()*99);
+        console.log(ketqua);
+        var reply = prompt("Du doan mot con so de nhan thuong?");
+        if(ketqua == reply){
+            alert("Chuc mung ban da trung thuong 1 SH cmnr!!!");
+        } else {
+            alert("Truot roi ban eiiii.");
+        }
+    }
+</script>
 </body>
 </html>

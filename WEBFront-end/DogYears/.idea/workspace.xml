@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f6e9f329-19e2-4df6-9fa5-98d30da02c1c" name="Default Changelist" comment="" />
+    <list default="true" id="aba1a2ac-3e88-473c-a572-92756037ad59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../BNGW/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BNGW/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DemoHeroku/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../DemoHeroku/home.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,37 +22,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\Admin\Documents\GitHub\AnhNVTH1904015\WEBFront-end\DogYears\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/.gitignore" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectId" id="1PzZbAKPg374Oe3dQkPsyIxOaNf" />
+  <component name="ProjectId" id="1QK7oIL9y6GwXEw8zqWO3VvZXwT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/beagle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Documents\GitHub\AnhNVTH1904015\WEBFront-end\DogYears\images\beagle" />
-      <recent name="C:\Users\Admin\Documents\GitHub\AnhNVTH1904015\WEBFront-end\DogYears\item" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\Documents\GitHub\AnhNVTH1904015\WEBFront-end\DogYears\css" />
-      <recent name="C:\Users\Admin\Documents\GitHub\AnhNVTH1904015\WEBFront-end\DogYears\" />
+      <recent name="C:\Users\Admin\Documents\GitHub\dogyears-master\images\pug" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,19 +55,20 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f6e9f329-19e2-4df6-9fa5-98d30da02c1c" name="Default Changelist" comment="" />
-      <created>1566881258624</created>
+      <changelist id="aba1a2ac-3e88-473c-a572-92756037ad59" name="Default Changelist" comment="" />
+      <created>1567507607053</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566881258624</updated>
-      <workItem from="1566881259829" duration="4628000" />
-      <workItem from="1566895077775" duration="11332000" />
-      <workItem from="1566916869617" duration="42000" />
-      <workItem from="1567050749830" duration="12000" />
-      <workItem from="1567138315874" duration="2212000" />
-      <workItem from="1567156491781" duration="4741000" />
-      <workItem from="1567171183804" duration="1744000" />
-      <workItem from="1567227520350" duration="17885000" />
+      <updated>1567507607053</updated>
+      <workItem from="1567507608306" duration="2922000" />
+      <workItem from="1567511107047" duration="482000" />
+      <workItem from="1567525208312" duration="1944000" />
+      <workItem from="1567527367025" duration="817000" />
+      <workItem from="1567559755867" duration="9406000" />
+      <workItem from="1567667703226" duration="4772000" />
+      <workItem from="1567698701635" duration="64000" />
+      <workItem from="1567732138235" duration="19000" />
+      <workItem from="1567735063356" duration="159000" />
     </task>
     <servers />
   </component>
